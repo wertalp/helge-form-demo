@@ -1,1 +1,14 @@
+/**
+ * @Author: Patrick Wertal <wertalp>
+ * @Date:   07-Oct-2017
+ * @Email:  patrick.wertal@gmail.com
+ * @Last modified by:   wertalp
+ * @Last modified time: 07-Oct-2017
+ * @License: Licenced by PW @2016
+ */
+
+
+
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
