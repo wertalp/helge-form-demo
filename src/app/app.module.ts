@@ -15,6 +15,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AddressFormComponent } from './components/address-form/address-form.component';
 import { FormsModule }   from '@angular/forms';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { FormsModule }   from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
