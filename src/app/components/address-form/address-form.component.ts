@@ -22,9 +22,25 @@ export class AddressFormComponent implements OnInit {
 
   private customers: Customer[];
   private selectedCustomer: Customer;
+  private interrests : any[];
   constructor() { }
 
   ngOnInit() {
+    this.interrests = [
+      {
+        "name": "wanna sign"
+      },
+      {
+        "name": "want information"
+      },
+      {
+        "name": "send me email"
+      },
+      {
+        "name": "give me a callback"
+      }
+    ];
+
     this.selectedCustomer = new Customer("Bit-Coin-000-ref-xx-NOR-23332---23333",1222,"Patrick","Wertal","patty@gmail.com","+41 79886776766","DAS IST MEIN ANLIEGEN FÜR ZUKUNFT")
 
     this.customers = [this.selectedCustomer,
