@@ -12,9 +12,13 @@
   </div>
   <div class="form-group">
   <label for="interrests">Interessen:</label>
+          <div class="row">
+            <div class="col-lg-4">
   <select class="form-control" id="interrests" required>
     <option *ngFor="let inter of interrests" [value]="inter.name">{{inter.name}}</option>
   </select>
+      </div>
+</div>
 </div>
 </form>
 <form id="contact-form" method="post" action="contact.php" role="form">
