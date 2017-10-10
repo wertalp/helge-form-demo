@@ -16,12 +16,14 @@ import { AppComponent } from './app.component';
 import { AddressFormComponent } from './components/address-form/address-form.component';
 import { FormsModule }   from '@angular/forms';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { CalenderComponentComponent } from './components/calender-component/calender-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddressFormComponent
+    AddressFormComponent,
+    CalenderComponentComponent
   ],
   imports: [
     BrowserModule,
