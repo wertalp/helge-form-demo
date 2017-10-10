@@ -10,8 +10,6 @@
 
 
 #contact-form{
-  width: 550px;
-  height: 90%;
-  border: 1px solid;
+  border: 1px dashed;
   padding: 30px;
 }
