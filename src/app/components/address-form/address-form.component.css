@@ -12,4 +12,8 @@
 #contact-form{
   border: 1px dashed;
   padding: 30px;
+  font-size: 6px;
+}
+.form-control{
+  font-size: 0.8rem;
 }
