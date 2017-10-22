@@ -3,7 +3,7 @@
  * @Date:   07-Oct-2017
  * @Email:  patrick.wertal@gmail.com
  * @Last modified by:   wertalp
- * @Last modified time: 07-Oct-2017
+ * @Last modified time: 22-Oct-2017
  * @License: Licenced by PW @2016
  */
 
@@ -17,20 +17,23 @@ import { AddressFormComponent } from './components/address-form/address-form.com
 import { FormsModule }   from '@angular/forms';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { CalenderComponentComponent } from './components/calender-component/calender-component.component';
-
+import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
+import {TestDataService} from './test-data-service.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddressFormComponent,
-    CalenderComponentComponent
+    CalenderComponentComponent,
+    NavbarComponentComponent
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
     NgbModule.forRoot()
   ],
-  providers: [],
+  providers: [TestDataService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

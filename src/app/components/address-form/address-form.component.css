@@ -3,7 +3,7 @@
  * @Date:   07-Oct-2017
  * @Email:  patrick.wertal@gmail.com
  * @Last modified by:   wertalp
- * @Last modified time: 10-Oct-2017
+ * @Last modified time: 12-Oct-2017
  * @License: Licenced by PW @2016
  */
 
@@ -12,7 +12,7 @@
 #contact-form{
   border: 1px dashed;
   padding: 30px;
-  font-size: 6px;
+  font-size: 10px;
 }
 .form-control{
   font-size: 0.8rem;
